@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="apple-itunes-app" content="app-id=1332040728">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="/js/modernizr.js?v=0.1502"></script>
@@ -15,14 +14,6 @@
     <link rel="android" sizes="192x192" href="/images/android.png">
     <script type="text/javascript" charset="utf-8" data-requirecontext="_" src="/js/require.js?v=0.1502"></script>
     <script type="text/javascript" charset="utf-8" data-requirecontext="_" src="/js/main.js?v=0.1502"></script>    
-    <script>
-            //loads the IFrame Player API code asynchronously.
-            var tag = document.createElement('script');
-
-            tag.src = "https://www.youtube.com/iframe_api";
-            var firstScriptTag = document.getElementsByTagName('script')[0];
-            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-    </script>
     <meta name="docDate" content="2019/03/11"/>
 <meta name="SectionName" content="News and Risk Insight" />
 <meta name="NewsSubSectionName" content="Risk Reports" />
@@ -57,7 +48,9 @@
         <div class="container">
             <div class="primary-bar">
                 <div class="lloyd_logo">
-                    <a href="https://www.lloyds.com" class="ir">Lloyd's homepage</a>
+                    <a href="https://www.lloyds.com">
+                    <img src="/images/lloyd_logo.svg" alt="Lloyd">
+                    </a>
                 </div>
                 <div class="search">
         <form method="Get" action="/Search">
@@ -79,9 +72,6 @@
     
     </ul>
     
-    
-                <!-- Html.Action Mobile Nav -->
-                <!-- Mobile Nav -->
     <div class="mobile-nav">
         <ul>
             <li class="mobile-nav__account">
