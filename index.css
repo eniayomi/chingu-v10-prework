@@ -179,4 +179,29 @@ a {
     margin: 0;
     padding: 0;
 }
+.header-light .secondary-bar .secondary-nav li .secondary-nav__mega-panel ul {
+    padding: 0;
+}
+ol ul, ul ol, ul ul, ol ol {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.header-light .secondary-bar .secondary-nav li .secondary-nav__mega-panel ul li {
+    background: #dfe0e6;
+    background-image: url(icons/icon_arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 27px 15px;
+    background-size: 9px;
+}
+.header-light .secondary-bar .secondary-nav li {
+    display: inline-block;
+    float: left;
+    width: 20%;
+    background: #282f54;
+}
+.header-light .secondary-bar .secondary-nav li .secondary-nav__mega-panel ul li a {
+    color: #141414;
+    font-family: 'NHaasGroteskTXStd-55Rg';
+    padding: 15px 47px;
+}
 
