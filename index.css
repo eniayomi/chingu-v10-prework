@@ -1,0 +1,67 @@
+.header-light .primary-bar .lloyd_logo {
+    display: inline;
+    float: left;
+    width: 93px;
+    height: 38px;
+    background: url(lloyd_logo.svg);
+    background-repeat: no-repeat;
+    background-size: 93px;
+    background-color: #000;
+    margin-left: 15px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.logo_alt {
+    text-indent: -999em;
+    overflow: hidden;
+    display: block;
+    background-repeat: no-repeat;
+}
+.header-light {
+    display: block;
+}
+.header-light .container {
+    margin: 0 auto;
+    max-width: 980px;
+    width: initial;
+}
+.header-light .primary-bar {
+    display: block;
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+.header-light .primary-bar .search {
+    display: inline;
+    position: relative;
+    float: right;
+    width: 146px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.header-light .primary-bar .search .search__searchbox {
+    display: block;
+    box-sizing: border-box;
+    padding: 0 0 0 15px;
+    background: #f1f1f1;
+    border: 0;
+    border-bottom: 1px solid #282f54;
+    width: 100%;
+    height: 38px;
+    font-size: .9em;
+}
+.header-light .primary-bar .search .search__searchbutton {
+    position: absolute;
+    background: url(icons/search.png) no-repeat center center;
+    width: 30px;
+    height: 30px;
+    background-size: 65%;
+    border: none;
+    top: 3px;
+    right: 4px;
+    font-size: 0;
+}
