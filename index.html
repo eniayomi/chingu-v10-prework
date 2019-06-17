@@ -1,144 +1,496 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Taking control - Lloyd's - The world’s specialist insurance market. Also known as Lloyd's of London; is a market where members join together as syndicates to insure risks.</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="/js/modernizr.js?v=0.1502"></script>
-    <link rel="stylesheet" type="text/css" href="index.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
-    <link rel="apple" href="/images/apple.png">
-    <link rel="android" sizes="192x192" href="/images/android.png">
-    <script type="text/javascript" charset="utf-8" data-requirecontext="_" src="/js/require.js?v=0.1502"></script>
-    <script type="text/javascript" charset="utf-8" data-requirecontext="_" src="/js/main.js?v=0.1502"></script>    
-    <meta name="docDate" content="2019/03/11"/>
-<meta name="SectionName" content="News and Risk Insight" />
-<meta name="NewsSubSectionName" content="Risk Reports" />
-<meta name="Description" content="How artificial intelligence and robots create new risks and opportunities for insurance and society" />
-</head>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav id="secondary" class="navbar navbar-expand-xl navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="img/Lloyds_of_London_logo_black.svg" height="38px" alt=""
+        /></a>
+        <ul id="nav-menu-icons" class="navbar-nav d-xl-none ml-auto mr-3">
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="#"><i class="fa fa-user fa-lg"></i></a>
+          </li>
+          <li class="nav-item">
+            <a id="searchtoggl" class="nav-link" href="#"
+              ><i class="fa fa-search fa-lg"></i
+            ></a>
+          </li>
+        </ul>
 
-<body id="body">
-    <main class="main">
-        <header class="header-light">
-        <div class="container">
-            <div class="primary-bar">
-                <div class="lloyd_logo">
-                    <a href="https://www.lloyds.com" class="logo_alt">Lloyd's homepage</a>
-                </div>
-                <div class="search">
-        <form method="Get" action="/Search">
-            <input type="search" value="" placeholder="Search" name="q" id="q" class="search__searchbox">
-            <input type="submit" value="Search" class="search__searchbutton">
-        </form>
-    </div>
-    
-                <ul class="primary-nav">
-                <li><a href="https://www.lloyds.com/about-lloyds">About</a></li>
-                <li><a href="https://www.lloyds.com/about-lloyds/value_proposition_broker">Brokers</a></li>
-                <li><a href="https://www.lloyds.com/about-lloyds/value_proposition_coverholder">Coverholders</a></li>
-                <li><a href="https://www.lloyds.com/about-lloyds/value_proposition_insurer">Insurer</a></li>
-                <li><a href="https://www.lloyds.com/policyholder">Policyholders</a></li>
-                <li><a href="https://www.lloyds.com/careers">Careers</a></li>
-                <li><a href="https://www.lloyds.com/investor-relations">Investor relations</a></li>
-                <li><a href="https://www.lloyds.com/contact-us">Contact</a></li>
-                <li><a href="https://www.lloyds.com/Account/Login">Login/register</a></li>
-    
-    </ul>        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarsExample07"
+          aria-controls="navbarsExample07"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="searchbar" class="container">
+          <div class="row">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search"
+                aria-label="Search term"
+                aria-describedby="basic-addon"
+              />
+              <div class="input-group-append">
+                <button class="btn btn-secondary" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
             </div>
-        </div>   
-        <div class="secondary-bar" style="">
-            
-            <ul class="secondary-nav">
-                
-            <li class="active">
-                <span class="toggle"></span>
-                <a href="/news-and-risk-insight">
-                    <span></span>
-                    News and risk insight
-                </a>
-                <div class="secondary-nav__mega-panel" style="">
-                    <h2>News and risk insight</h2>
-                        <ul>
-                        <li><a href="/news-and-risk-insight/press-releases">Press releases</a></li>
-                        <li><a href="/news-and-risk-insight/news">News</a></li>
-                        <li><a href="/news-and-risk-insight/risk-reports">Risk reports</a></li>
-                        <li><a href="/events">Events</a></li>
-                        <li><a href="https://www.lloydsbrussels.com/">Lloyd’s subsidiary in Brussels</a></li>
-                        <li><a href="https://www.lloydslab.com/">Lloyd&#39;s Lab</a></li>
-                        <li><a href="https://www.lloyds.com/cityriskindex/">City Risk Index</a></li>
-                        <li><a href="/news-and-risk-insight/consumer-alerts">Consumer alerts</a></li>
-                        <li><a href="/news-and-risk-insight/media-centre">Media centre</a></li>
-                        <li><a href="https://futureat.lloyds.com/propsectus">Future at Lloyd&#39;s</a></li>
-                </ul>
-            
-                </div>
-                     
-                <footer class="footer module grey">
+          </div>
+        </div>
 
-                    <div class="footer--copy-text module  black">
-                        <div class="container">
-                            <div class="footer--row">
-                                <ul class="footer--row--links">
-                                        <li class="footer--row--links--item ">
-                                            <a class="hidelink" href="/common/privacy-notices">Privacy</a>
-                                        </li>
-                                        <li class="footer--row--links--item ">
-                                            <a class="hidelink" href="/common/cookies-policy">Cookies</a>
-                                        </li>
-                                        <li class="footer--row--links--item ">
-                                            <a class="hidelink" href="/common/terms-and-conditions">Terms &amp; Conditions</a>
-                                        </li>
-                                        <li class="footer--row--links--item ">
-                                            <a class="hidelink" href="https://www.lloyds.com/modernslaverystatement">Modern Slavery Act</a>
-                                        </li>
-                                        <li class="footer--row--links--item ">
-                                            <a class="hidelink" href="/help-and-glossary">Help</a>
-                                        </li>
-                                        <li class="footer--row--links--item ">
-                                            <a class="hidelink" href="/contact-us">Contact</a>
-                                        </li>
-                                </ul>
-                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer--social-wrap module  black">
-                        <div class="container">
-                            <!--googleoff: index-->
-                            <div class="footer--row">
-                                <ul class="footer--row--social">
-                                        <li class="footer--row--social--item twitter">
-                                            <a href="https://twitter.com/LloydsofLondon" class="hidelink">
-                                                <div class="icon twitter"></div>
-                                            </a>
-                                        </li>
-                                        <li class="footer--row--social--item linkedin">
-                                            <a href="http://www.linkedin.com/company/lloyd%27s-of-london" class="hidelink">
-                                                <div class="icon linkedin"></div>
-                                            </a>
-                                        </li>
-                                        <li class="footer--row--social--item facebook">
-                                            <a href="https://www.facebook.com/lloyds" class="hidelink">
-                                                <div class="icon facebook"></div>
-                                            </a>
-                                        </li>
-                                        <li class="footer--row--social--item youtube">
-                                            <a href="http://www.youtube.com/user/Lloydsinsurance" class="hidelink">
-                                                <div class="icon youtube"></div>
-                                            </a>
-                                        </li>
-                                </ul>
-                
-                                <div class="copyright">
-                                    <p>Lloyd's Copyright 2019</p>
-                                    <p>Lloyd's is a registered trademark of the Society of Lloyd's. Lloyd's is authorised under the Financial Services and Markets Act 2000. </p>
-                                </div>
-                            </div>
-                            <!--googleon: index-->
-                        </div>
-                    </div>
-                </footer>
+        <div class="collapse navbar-collapse" id="navbarsExample07">          
+          <ul id="secondary-nav" class="navbar-nav w-100 nav-fill mx-auto">
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Brokers</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Coverholders</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Insurer</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Policyholders</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Investor relations</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login/register</a>
+            </li>
+          </ul>          
+          <form class="form-inline d-none d-xl-block">
+            <div id="input-search" class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search"
+                aria-label="Search term"
+                aria-describedby="basic-addon"
+              />
+              <div class="input-group-append">
+                <button class="btn btn-secondary" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container d-none d-xl-block mt-3">
+      <nav
+        id="primary"
+        class="navbar navbar-expand-lg navbar navbar-dark bg-primary"
+      >
+        <ul id="primary-nav" class="navbar-nav nav-justified w-100">
+          <li
+            class="nav-item dropdown has-mega-menu active"
+            style="position:static;"
+          >
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >News and risk insights</a
+            >
+
+            <div class="dropdown-menu" style="width:100%">
+              <div class="px-0 container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <a class="dropdown-item" href="#">Press releases</a>
+                    <a class="dropdown-item" href="#">Events</a>
+                    <a class="dropdown-item" href="#">City Risk Index</a>
+                    <a class="dropdown-item" href="#">Future of Lloyd's</a>
+                  </div>
+                  <div class="col-md-4">
+                    <a class="dropdown-item" href="#">News</a>
+                    <a class="dropdown-item" href="#"
+                      >Lloyd's subsidiary in Brussels</a
+                    >
+                    <a class="dropdown-item" href="#">Consumer Alerts</a>
+                  </div>
+                  <div class="col-md-4">
+                    <a class="dropdown-item" href="#">Risks reports</a>
+                    <a class="dropdown-item" href="#">Lloyd's Lab</a>
+                    <a class="dropdown-item" href="#">Media centre</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown has-mega-menu" style="position:static;">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Market directory</a
+            >
+
+            <div class="dropdown-menu" style="width:100%">
+              <div class="px-0 container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <a class="dropdown-item" href="#">Press releases</a>
+                    <a class="dropdown-item" href="#">Events</a>
+                    <a class="dropdown-item" href="#">City Risk Index</a>
+                    <a class="dropdown-item" href="#">Future of Lloyd's</a>
+                  </div>
+                  <div class="col-md-4">
+                    <a class="dropdown-item" href="#">News</a>
+                    <a class="dropdown-item" href="#"
+                      >Lloyd's subsidiary in Brussels</a
+                    >
+                    <a class="dropdown-item" href="#">Consumer Alerts</a>
+                  </div>
+                  <div class="col-md-4">
+                    <a class="dropdown-item" href="#">Risks reports</a>
+                    <a class="dropdown-item" href="#">Lloyd's Lab</a>
+                    <a class="dropdown-item" href="#">Media centre</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown has-mega-menu" style="position:static;">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Market resources</a
+            >
+
+            <div class="dropdown-menu" style="width:100%">
+              <div class="px-0 container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <a class="dropdown-item" href="#">Press releases</a>
+                    <a class="dropdown-item" href="#">Events</a>
+                    <a class="dropdown-item" href="#">City Risk Index</a>
+                    <a class="dropdown-item" href="#">Future of Lloyd's</a>
+                  </div>
+                  <div class="col-md-4">
+                    <a class="dropdown-item" href="#">News</a>
+                    <a class="dropdown-item" href="#"
+                      >Lloyd's subsidiary in Brussels</a
+                    >
+                    <a class="dropdown-item" href="#">Consumer Alerts</a>
+                  </div>
+                  <div class="col-md-4">
+                    <a class="dropdown-item" href="#">Risks reports</a>
+                    <a class="dropdown-item" href="#">Lloyd's Lab</a>
+                    <a class="dropdown-item" href="#">Media centre</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown has-mega-menu" style="position:static;">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Tools and systems</a
+            >
+
+            <div class="dropdown-menu" style="width:100%">
+              <div class="px-0 container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <a class="dropdown-item" href="#">Press releases</a>
+                    <a class="dropdown-item" href="#">Events</a>
+                    <a class="dropdown-item" href="#">City Risk Index</a>
+                    <a class="dropdown-item" href="#">Future of Lloyd's</a>
+                  </div>
+                  <div class="col-md-4">
+                    <a class="dropdown-item" href="#">News</a>
+                    <a class="dropdown-item" href="#"
+                      >Lloyd's subsidiary in Brussels</a
+                    >
+                    <a class="dropdown-item" href="#">Consumer Alerts</a>
+                  </div>
+                  <div class="col-md-4">
+                    <a class="dropdown-item" href="#">Risks reports</a>
+                    <a class="dropdown-item" href="#">Lloyd's Lab</a>
+                    <a class="dropdown-item" href="#">Media centre</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown has-mega-menu" style="position:static;">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Lloyd's around the world</a
+            >
+
+            <div class="dropdown-menu" style="width:100%">
+              <div class="px-0 container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <a class="dropdown-item" href="#">Press releases</a>
+                    <a class="dropdown-item" href="#">Events</a>
+                    <a class="dropdown-item" href="#">City Risk Index</a>
+                    <a class="dropdown-item" href="#">Future of Lloyd's</a>
+                  </div>
+                  <div class="col-md-4">
+                    <a class="dropdown-item" href="#">News</a>
+                    <a class="dropdown-item" href="#"
+                      >Lloyd's subsidiary in Brussels</a
+                    >
+                    <a class="dropdown-item" href="#">Consumer Alerts</a>
+                  </div>
+                  <div class="col-md-4">
+                    <a class="dropdown-item" href="#">Risks reports</a>
+                    <a class="dropdown-item" href="#">Lloyd's Lab</a>
+                    <a class="dropdown-item" href="#">Media centre</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <section class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Risk Reports</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Technology
+                </li>
+              </ol>
+            </nav>
+            <h1>Taking Control</h1>
+            <p>
+              How artificial intelligence and robots create new risks and
+              opportunities for insurance and society
+            </p>
+            <a href="#"><i class="fa fa-share-alt"></i> Share</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>
+              As the world becomes increasingly automated, it is forcing
+              underwriters to adapt and navigate a new risk environment.
+              Meanwhile insurers are leveraging the potential of AI themselves
+              to remain competitive, improve processes and increase efficiency.
+              Lloyd’s have commissioned two reports in collaboration with the
+              University of Surrey that explore these trends in more detail.
+            </p>
+            <p>
+              “Taking control: artificial intelligence and insurance” analyses
+              the associated risks of AI implementation as well as the potential
+              for AI to help insurers improve their operations and develop new
+              products. Building on this, “Taking control: robots and risk”
+              investigates the impact “collaborative robots” (or cobots) on the
+              economy, and the subsequent risks implications for the insurance
+              industry.
+            </p>
+
+            <div class="clearfix my-5">
+              <img
+                class="mx-3 float-left d-none d-md-block"
+                src="img/TAking control thumb.png"
+              />
+              <div class="row">
+                <div class="col-12 col-md-11">
+                  <h2>Taking control: artificial intelligence and insurance</h2>
+                  <p>
+                    This report identifies four risks areas for AI: trust and
+                    transparency, ethics, security and safety. It highlights
+                    that as artificial intelligence systems become more complex,
+                    cyber breaches are likely to have an even greater impact.
+                    The report also explores new business opportunities for
+                    insurers from developing new products for companies using
+                    the AI to applying the technology to improve insurance
+                    processes and deliver better value.
+                  </p>
+                  <button class="btn btn-primary btn-download">Download</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="clearfix">
+              <img
+                class="mx-3 float-left d-none d-md-block"
+                src="img/Robots Thumbnail.png"
+              />
+              <div class="row">
+                <div class="col-12 col-md-11">
+                  <h2>Taking control: robots and risk</h2>
+                  <p>
+                    In the future millions of jobs could be taken over by
+                    increasingly sophisticated robots or cobots (“collaborative
+                    robots”), according to various predictions. This report
+                    explores robotics potential to significantly change the risk
+                    landscape in many parts of the economy, including:
+                    manufacturing, agriculture, healthcare and retail. It also
+                    explores the opportunity for insurers to collaborate with
+                    clients as data from cobots will provide a much greater
+                    understanding of risk and offer opportunities for improved
+                    risks and pricing models.
+                  </p>
+                  <button class="btn btn-primary btn-download">Download</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <ul class="footer__links list-inline">
+              <li class="list-inline-item"><a href="#">Privacy</a></li>
+              <li class="list-inline-item"><a href="#">Cookies</a></li>
+              <li class="list-inline-item">
+                <a href="#">Terms & Conditions</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Modern Slavery Act</a>
+              </li>
+              <li class="list-inline-item"><a href="#">Help</a></li>
+              <li class="list-inline-item"><a href="#">Contact</a></li>
+            </ul>
+            <ul class="footer__social-links list-inline mb-5">
+              <li class="list-inline-item">
+                <a class="bg-twitter" href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a class="bg-linkedin" href="#"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a class="bg-facebook" href="#"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a class="bg-youtube" href="#"><i class="fa fa-youtube"></i></a>
+              </li>
+            </ul>
+            <p>Lloyd's Copyright 2019</p>
+            <p>
+              Lloyd's is a registered trademark of the Society of Lloyd's.
+              Lloyd's is authorised under the Financial Services and Markets Act
+              2000.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.rawgit.com/JacobLett/IfBreakpoint/e9fcd4fd/if-b4-breakpoint.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        if (lg == true || md == true || sm == true || xs == true) {
+          $("#secondary-nav").prepend($("#primary-nav").children());
+          $("#secondary-nav").removeClass('nav-fill');
+          $("#secondary-nav").removeClass('nav-border');
+        } else {
+          $("#secondary-nav").addClass('nav-border');
+        }
+        $(window).resize(function() {
+          if (lg == true || md == true || sm == true || xs == true) {
+            $("#secondary-nav").prepend($("#primary-nav").children());
+            $("#secondary-nav").removeClass('nav-fill'); 
+            $("#secondary-nav").removeClass('nav-border');           
+          } else {
+            $("#secondary-nav").addClass('nav-border');
+            location.reload();
+          }
+        });
+        var $searchbar = $("#searchbar");
+        $("#searchtoggl").on("click", function(e) {
+          e.preventDefault();
+          if ($(this).attr("id") == "searchtoggl") {
+            $searchbar.addClass("active");
+            $searchbar.slideToggle(300, function() {
+              // callback after search bar animation
+            });
+          }
+        });
+        $("#searchform").submit(function(e) {
+          e.preventDefault(); // stop form submission
+        });
+      });
+    </script>
+  </body>
 </html>

@@ -204,4 +204,103 @@ ol ul, ul ol, ul ul, ol ol {
     font-family: 'NHaasGroteskTXStd-55Rg';
     padding: 15px 47px;
 }
+.module.black {
+    background-color: #141414;
+    color: #fafafa;
+}
+.footer--copy-text {
+    width: 100%;
+}
+.module {
+    position: relative;
+    color: #141414;
+    text-align: left;
+}
+.module.grey {
+    background-color: #f1f1f1;
+}
+.footer {
+    width: 100%;
+    margin-top: 0;
+    border-top: 1px solid #737373;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+.footer--copy-text .container {
+    padding: 2em 0 0;
+    padding-right: 1em;
+    margin: 0 auto;
+    padding: 2em 1em 0 1em;
+}
+.module .container {
+    padding-left: 0;
+    padding-right: 0;
+    padding: 2em 1em 2em 1em;
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    position: relative;
+    clear: both;
+}
+.footer--copy-text .container .footer--row--links {
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1em;
+}
+ul {
+    margin: 0;
+        margin-bottom: 0px;
+    padding: 0;
+    list-style: none;
+}
+.footer--copy-text .container .footer--row--links--item:first-child {
+    padding-left: 0;
+}
+.footer--copy-text .container .footer--row--links--item {
+    display: inline;
+    float: left;
+    text-align: left;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #fafafa;
+    border-right: 1px solid #fafafa;
+    padding: 0 .5em;
+        padding-left: 0.5em;
+}
+.module.black p, .module.black a, .module.black a > h2, .module.black a > p, .module.black a > h4 {
+    color: #fafafa;
+}
+.module.grey p, .module.grey a, .module.grey a > h2, .module.grey a > p, .module.grey a > h4 {
+    color: #141414;
+}
+a.hidelink {
+    text-decoration: none;
+}
+a {
+    color: #141414;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+.footer--copy-text .container .footer--row--links--item {
+    display: inline;
+    float: left;
+    text-align: left;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #fafafa;
+    border-right: 1px solid #fafafa;
+    padding: 0 .5em;
+    padding-right: 0.5em;
+}
 
