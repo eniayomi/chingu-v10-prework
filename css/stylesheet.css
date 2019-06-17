@@ -6,6 +6,11 @@ navigation
 */
 .dropdown:hover>.dropdown-menu {
     display: block;
+    position: absolute;
+    padding: 20px 30px;
+    width: 100%;
+    z-index: 2;
+    left: 0;
    }
     .nav-section nav .site-logo {
         background-color: black;
