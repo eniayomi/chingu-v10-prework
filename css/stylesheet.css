@@ -4,7 +4,9 @@
     /*
 navigation
 */
-    
+.dropdown:hover>.dropdown-menu {
+    display: block;
+   }
     .nav-section nav .site-logo {
         background-color: black;
         text-align: center;
