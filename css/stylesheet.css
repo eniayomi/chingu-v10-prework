@@ -12,6 +12,7 @@ navigation
     z-index: 2;
     left: 0;
     right: 0;
+    background-color: #f1f1f1
    }
     .nav-section nav .site-logo {
         background-color: black;
