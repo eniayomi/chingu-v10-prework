@@ -7,12 +7,15 @@ navigation
 .dropdown:hover>.dropdown-menu {
     display: block;
     position: absolute;
+   }
+   .dropdown-menu {
     padding: 20px 30px;
     width: 490%;
     z-index: 2;
-    left: 0;
-    right: 0;
-    background-color: #f1f1f1
+    top: 100%;
+    background-color: #f1f1f1;
+    width: 490%;
+       left: 0;
    }
     .nav-section nav .site-logo {
         background-color: black;
@@ -60,7 +63,7 @@ navigation
              --top-bar styling---
 */
     
-    .top-nav ul li {
+    .dropdown {
         background-color: #282F52;
         line-height: 2;
         list-style-type: none;
